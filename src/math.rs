@@ -67,7 +67,6 @@ mod tests {
             .unwrap_err()
             .to_string();
 
-        println!("{result}");
         assert_eq!(result, String::from("Invalid operation: invalid-operation"))
     }
 }
