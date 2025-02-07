@@ -55,7 +55,7 @@ The calculator handles various error cases:
 - Division by zero
 - Invalid operations
 
-### Docker Support (Work in Progress)
+### Docker Support
 
 Build the Docker image:
 ```bash
