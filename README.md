@@ -54,7 +54,6 @@ Result: 3
 The calculator handles various error cases:
 - Division by zero
 - Invalid operations
-- Invalid number inputs
 
 ### Docker Support (Work in Progress)
 
@@ -65,7 +64,7 @@ docker build -t rust-calculator .
 
 Run the container:
 ```bash
-docker run -i rust-calculator
+docker run -it rust-calculator
 ```
 
 Note: Docker input handling is currently being improved. Updates will be available in future releases.
@@ -90,7 +89,6 @@ Unit tests will be added in upcoming releases. The test suite will cover:
 - Basic arithmetic operations
 - Error handling
 - Edge cases
-- Input validation
 
 ## License
 
@@ -98,10 +96,10 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Todo
 
-- [ ] Complete Docker input handling
-- [ ] Add comprehensive test suite
+- [x] Complete Docker input handling
+- [x] Add comprehensive test suite
 - [ ] Add support for more complex operations
 
 ## Authors
 
-- Your Name (@egorzvuzdetskyi)
+- (@egorzvuzdetskyi)
